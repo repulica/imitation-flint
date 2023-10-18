@@ -3,16 +3,15 @@
 	"id": "imitationflint",
 	"version": "${version}",
 	"name": "Imitation Flint",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "adds an item that can light blocks like they were tnt",
 	"authors": [
 		"repulica"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/repulica/imitation-flint"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MPL-2.0",
+	"icon": "assets/imitationflint/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,8 +22,5 @@
 		"fabricloader": ">=0.14.22",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# Imitation Flint
 
-## Setup
+adds an item that can light blocks like they were tnt
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+crafted with iron ingot gunpowder and coal or charcoal
 
-## License
+can also be used in dispensers
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+blocks can be outlisted with the `imitationflint:explosion_disallowed` tag
+
+have fun
