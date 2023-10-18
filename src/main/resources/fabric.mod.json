@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "imitationflint",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "Imitation Flint",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"repulica"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,22 +16,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.ExampleModClient"
+			"repulica.imitationflint.ImitationFlint"
 		]
 	},
-	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
-		"minecraft": "~1.20.2",
 		"java": ">=17",
 		"fabric-api": "*"
 	},
